@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import books from './books'
-
+import './index.css'
  
 function BookList(){
   const booksLists = books.map(item => <Book key={item.id} item={item}/>)
   return(
-    <>
-    {booksLists}
-    </>
+    <section className="bookList">
+      {booksLists}
+    </section>
   )
 }
 
 const Book = (props) => {
   const imgStyle = {width: "35%", height:"45%"}
   return(
-    <section>
+    <section className="books">
       <article>
   <h2>Title: <i>{props.item.title}</i></h2>
       </article>

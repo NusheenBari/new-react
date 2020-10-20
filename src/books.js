@@ -33,6 +33,15 @@ const books = [
         price:87,
         cover:'https://images-na.ssl-images-amazon.com/images/I/51m07BAiMTL._SY448_BO1,204,203,200_.jpg'
     },
+    {
+        id:4,
+        title:'Little Blue Truck Board Book ',
+        author:'Alice Schertle ',
+        illustrator: '',
+        summary:'Beep! Beep! Beep! Meet Blue. A muddy country road is no match for this little pick up--that is, until he gets stuck while pushing a dump truck out of the muck.',
+        price:87,
+        cover:'https://images-na.ssl-images-amazon.com/images/I/51m07BAiMTL._SY448_BO1,204,203,200_.jpg'
+    },
 ]
 
 export default books
