@@ -2,18 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
  
- function App(){
-   return(
-     <div>
-       <h1>HEllo!</h1>
-       <p>World of ka-a-h</p>
-     </div>
-       
-   )
- }
+function App(){
+  return(
+    <>
+    <Person />
+    <Message/>
+    </>
+  )
+}
 
-//  const Greet = () => {
-//     return React.createElement('h1', {}, 'Hello World')
-//  }
+const Person = () => <h1>Nush</h1>
+const Message = () => {
+  return(
+    <p>The World is your fluff ball.. ;)</p>
+  )
+}
 
- ReactDOM.render(<App/>, document.getElementById('root'))
+
+
+ReactDOM.render(<App/>, document.getElementById('root'))
